@@ -121,7 +121,7 @@ int main(int argc, char * argv[]){
     }while(userChoice >=4 && userChoice <=8); //check if the user input is between 4 and 8 and continously run program till invalid input is entered
     //if input value is invalid end the program
     if (userChoice <4 || userChoice >8){
-        printf("This is an invalid option");
+        printf("This is an invalid option\n");
         return 0;
     }
 }
